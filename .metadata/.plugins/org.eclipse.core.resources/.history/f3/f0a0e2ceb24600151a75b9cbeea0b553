@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextdsfView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:text="Alert"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E98F02"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:text="Version- 1.0.0"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/alert_transparant"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_about_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:text="Designed and Programmed by-"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E98F02"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView994"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:text="Anmol Jaiswal and \nMansi Mor"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:autoLink="email"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="anmol.jai.12@gmail.com"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColorLink="#2B60DE"/>
+
+</LinearLayout>
